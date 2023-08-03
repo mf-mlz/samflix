@@ -8,9 +8,6 @@ Website inspired in netflix, created with React and Bootstrap
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
-![Music mfmlz](https://spotify-recently-played-readme.vercel.app/api?user=12186582363&count=1)
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
 
 ## 🌐 Socials:
