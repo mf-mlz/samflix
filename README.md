@@ -24,7 +24,7 @@ Website inspired in netflix, created with React and Bootstrap
     
 - **Front-End Development**:
 
-  [![My Skills](https://skills.thijs.gg/icons?i=react,bootstrap )](https://skills.thijs.gg)
+  [![My Skills](https://skills.thijs.gg/icons?i=react,bootstrap, css,js)](https://skills.thijs.gg)
 
 <br>
 
