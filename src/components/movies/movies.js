@@ -5,9 +5,6 @@ import { Link } from 'react-router-dom';
 
 function Movies() {
 
-  console.log("Entró");
-  console.log(process.env.REACT_APP_API_URL_PROD);
-
   const apiUrl = process.env.REACT_APP_API_URL_PROD;
   const imagePath = process.env.REACT_APP_IMG_URL;
   const apiGenre = process.env.REACT_APP_API_KEY_GENRE;
