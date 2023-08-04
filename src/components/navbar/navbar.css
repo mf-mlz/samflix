@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #ffc107;
+    font-family: 'Bebas Neue', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav .title{
+    font-size: 1.8rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;   
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+.active{
+    background-color: #dba504;
+}
+
+nav ul li a:hover{
+    background-color: #dba504;
+    color: white;
+}
+
+nav .menu{
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: #000;
+    border-radius: 0.2rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    nav .menu{
+        display: flex;
+        cursor: pointer;
+    }
+
+    nav ul.open{
+        display: flex;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 90% ;
+        margin-bottom: 1rem;
+
+    }
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a{
+        margin: 0.2rem 0.5em;
+    }
+
+}
