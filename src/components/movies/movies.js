@@ -76,8 +76,7 @@ function Movies() {
             verificador = randomIndex;
           }
           setMoviesRandom(randomMovies);
-          console.log(randomMovies);
-
+          
         } else if(movies.results.length === 0) {
           setMovies([]); 
           Swal.fire({

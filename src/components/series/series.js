@@ -63,7 +63,6 @@ function Series() {
         const series = await response.json();
         if (response.status === 200 && series.results.length > 0) { 
           setSeries(series.results);
-          console.log(series.results)
           const randomSeries = [];
           let verificador = 0;
           for (let i = 0; i < 4;) { //Generamos 5 Numeros para sacar 5 peliculas random

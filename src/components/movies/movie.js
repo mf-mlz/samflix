@@ -41,7 +41,6 @@ function Movie() {
             let videoDataMovie = await fetch(`${apiUrl}/${idMovie}/videos`, options);
             const responseVideos = await videoDataMovie.json();
             let videos = [responseVideos.results];
-            console.log(videos);
             videos[0].map((video) => (video.name === 'Teaser Trailer' || video.type === 'Trailer') ? setTriler(video.key) : setTriler('')); 
             setMovies([movie]);
           }else{
