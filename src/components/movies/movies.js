@@ -66,7 +66,7 @@ function Movies() {
           setMovies(movies.results);
           const randomMovies = [];
           let verificador = 0;
-          for (let i = 0; i < 4;) { //Generamos 5 Numeros para sacar 5 peliculas random
+          for (let i = 0; i < 4;) { //Generamos 5 Numeros para sacar 5 peliculas random 
             const randomIndex = Math.floor(Math.random() * movies.results.length);
             if(randomIndex !== verificador && movies.results[randomIndex].poster_path !== '' && movies.results[randomIndex].title !== '' ){
              
