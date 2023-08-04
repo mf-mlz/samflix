@@ -203,7 +203,7 @@ function Movies() {
 
         {/* Buscador */}
         <div className="row g-3 align-items-center mb-3">
-          <div className="col-10">
+          <div className="col-8">
             <input type="text" id="inputSearch" className="form-control" placeholder='Ingresa el Nombre de la Pelicula'></input>
           </div>
           <div className="col-2"> 

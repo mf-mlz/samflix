@@ -113,7 +113,7 @@ function Movie() {
                                     </div>
                                     <div className='tagline'>
                                       <i>{movie.tagline}</i>
-                                      <button type="button" class="btn btn-outline-warning mx-4" onClick={handleModalOpen} style={{'display': triler === '' ? 'none' : ''}}>View Triler</button>
+                                      <button type="button" class="btn btn-outline-warning mx-4 trilerBtn" onClick={handleModalOpen} style={{'display': triler === '' ? 'none' : ''}}>View Triler</button>
                                     </div>
                                     <div className='my-4'>
                                       <h2 className='fw-bolder'>Description</h2>

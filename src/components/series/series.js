@@ -199,7 +199,7 @@ function Series() {
 
         {/* Buscador */}
         <div class="row g-3 align-items-center mb-3">
-          <div class="col-10">
+          <div class="col-8">
             <input type="text" id="inputSearch" class="form-control" placeholder='Ingresa el Nombre de la Serie'></input>
           </div>
           <div class="col-2">

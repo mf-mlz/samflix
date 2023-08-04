@@ -389,3 +389,7 @@ div:where(.swal2-container) button:where(.swal2-styled) {
     text-align: initial;
     margin: -10px;
 }
+
+.trilerBtn{
+  margin: 13px 0px 13px 0px;
+}
